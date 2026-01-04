@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love 💖</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <div id="envelope-wrapper">
+        <div class="envelope" id="envelope">
+            <div class="flap"></div>
+            <div class="letter">
+                <h2 class="handwriting">ถึง... คนพิเศษของเค้า</h2>
+                <p>เปิดดูของขวัญข้างในนะ</p>
+                <button id="open-btn">เปิดจดหมาย 💌</button>
+            </div>
+            <div class="heart-icon">❤️</div>
+        </div>
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="your-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="main-content" class="hidden">
+        <div id="hearts-container"></div>
+
+        <section class="section">
+            <div class="glass-card">
+                <div class="cake-container">
+                    <div class="flame" id="flame"></div>
+                    <div class="candle"></div>
+                    <div class="cake-top"></div>
+                    <div class="cake-bottom"></div>
+                </div>
+                <button id="blow-btn">เป่าเทียนด้วยกันนะ 🕯️</button>
+                <div id="wish-message" class="hidden">
+                    <h1 class="handwriting gradient-text">Happy Birthday Baby!</h1>
+                    <p id="typing-text"></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="video-frame">
+                <video id="hbd-video" loop playsinline>
+                    <source src="mp4/IMG_3343.MOV" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="slideshow-box">
+                <div class="slide fade">
+                    <img src="img/2.jpg" alt="Memories">
+                    <div class="caption">รักแรกพบ ❤️</div>
+                </div>
+                <div class="slide fade">
+                    <img src="img/1.jpg" alt="Memories">
+                    <div class="caption">รอยยิ้มที่ชอบที่สุด 😊</div>
+                </div>
+                <div class="slide fade">
+                    <img src="img/6255541780283591688_119.jpg" alt="Memories">
+                    <div class="caption">อยู่ด้วยกันไปนานๆ นะ 🌹</div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p class="handwriting">Forever & Always yours.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
